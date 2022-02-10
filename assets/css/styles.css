@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #22223b;
+}
+
+h1 {
+  padding-top: 100px;
+  color: azure;
+}
+
+h3 {
+  color: azure;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  border-radius: 20%;
+  border: 2px solid #718355;
+  background-color: #718355;
+  color: azure;
+  font-size: 16pt;
+  font-weight: 600;
+  text-align: center;
+}
+
+button:hover {
+  border: #3e1f47;
+  background-color: #9381ff;
+  color: azure;
+  box-shadow: inset 0 0 0 2px;
+}
+button:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+
+#counter {
+  display: flex;
+}
+
+#currentNumber {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  font-size: 16pt;
+  color: azure;
+}
